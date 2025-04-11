@@ -31,12 +31,13 @@ This script forms the core logic that'll control the platform
 
 To activate the GUI that allows you to control the flight motion platform, on a separate terminal:
 >cd Control_And_Interface_Software\X_Plane_To_Chair_Control_App\src
->python "platform_control_app.py"
+>python platform_control_app.py
+
 The START, STOP and RESET simulation buttons do as they imply. START starts moving the platform as X-Plane runs. STOP stops moving the platform. RESET resets back to idle state where motion can be started again by pressing START.
 
   To activate the safe state dummy that is required to fool the state machine into thinking the platform is in it's safe state:
 >cd Control_And_Interface_Software\X_Plane_To_Chair_Control_App\src
->python "safe_state_dummy.py"
+>python safe_state_dummy.py
 
 Assumming the motion platform is connected on ip "192.168.0.10", the software should work for the physical MDX flight motion platform
   
