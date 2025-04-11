@@ -7,7 +7,7 @@ After you cd into this repository you set up a conda environment go into main co
 >cd Control_And_Interface_Software
 
 #To install all the required packages run:
-python3 -m pip install -r requirements.txt
+>python3 -m pip install -r requirements.txt
 
 This should allow you to run the control software.
 
