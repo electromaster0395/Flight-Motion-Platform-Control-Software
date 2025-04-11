@@ -1,6 +1,6 @@
 Environment Setup Instructions:
-This codebase runs on Python 3.6.1. It's recommended you use conda and set up conda environment:
-conda create -n myenv python=3.6.1
+This codebase runs on Python 3.6. It's recommended you use conda and set up conda environment:
+conda create -n myenv python=3.6
 conda activate myenv
 
 After you cd into this repository you set up a conda environment go into main code repo by running
